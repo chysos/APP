@@ -1,0 +1,56 @@
+body{
+ background: url(../img/01bg.png)no-repeat ;
+ background-size: 100% ;
+}
+.xy-head{
+	width: 100%;
+	height: 5.4rem;
+}
+.xy-login{
+	position: relative;
+	padding-left: .55rem;
+}
+.xy-login input{
+	height: .92rem;
+	width: 5.6rem;
+	padding-left: .8rem;
+	border-radius: .2rem;
+	outline: none;
+	background-color:transparent;
+	border: .01rem solid #FFFFFF;
+}
+input::-webkit-input-placeholder {
+        /* placeholder颜色  */
+        color: #FFFFFF;
+        /* placeholder字体大小  */
+        font-size: .34rem;
+        /* placeholder位置  */
+       /* text-align: right;*/
+     /* text-align: center;*/
+    }
+.icon1{
+	color: #FFFFFF;
+	font-size: .34rem;
+	position: absolute;
+	left: .7rem;
+	top: .67rem;
+}
+.icon2{
+	color: #FFFFFF;
+	font-size: .34rem;
+	position: absolute;
+	left: .7rem;
+	top: 2.15rem;
+}
+.btn{
+	width: 6.45rem;
+	height: .92rem;
+	background: #194f90;
+	border-radius:.3rem ;
+	margin-left: .57rem;
+	outline: none;
+	border: none;
+	color: #FFFFFF;
+	font-size: .32rem;
+	
+}
