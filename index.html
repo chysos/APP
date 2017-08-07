@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/commib.js"></script>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/jq_scroll.js" ></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init(
+              {swipeBack:true }
+			);
+		</script>
+	</head>
+
+	<body>
+		<div class="mui-off-canvas-wrap mui-draggable  xy-body">
+			<!-- 菜单容器 -->
+			<aside class="mui-off-canvas-left">
+				<div class="mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<div class="mui-icon-map">
+							<ul class="mui-icon-list">
+								<li class="mui-list-unstyled">111</li>
+								<li class="mui-list-unstyled">111</li>
+								<li class="mui-list-unstyled">111</li>
+								<li class="mui-list-unstyled">111</li>
+								<li class="mui-list-unstyled">111</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<!-- 主页面容器 -->
+			<div class="mui-inner-wrap">
+				<!-- 主页面标题 -->
+				<header class="mui-bar mui-bar-nav xy-head">
+					<a class="mui-icon mui-action-menu mui-icon mui-icon-contact mui-pull-left"></a>
+					<h1 class="mui-title xy-txt">建筑云</h1>
+				</header>
+				<div class="mui-content mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<div class="xy-box">
+							<div class="xy-title">
+								<span>项目详情</span>
+							</div>
+							<div class="xy-main">
+								<span>项目进场人数：100人<i  class="mui-icon mui-icon mui-icon-person"></i></span>
+								<span>今日在场人数：100人<i  class="mui-icon mui-icon mui-icon-person"></i></span>
+								<span>项目开始时间：2017-02-02</span>
+								<span>项目结束时间：2018-02-02</span>
+							</div>
+							<div class="xy-canvas">
+								<canvas id="myCanvas" width="600" height="150"></canvas>
+								<span>项目进度</span>
+							</div>
+
+						</div>
+						<!--
+                        	作者：844273168@qq.com
+                        	时间：2017-08-03
+                        	描述：公告
+                        -->
+						<div class="xy-zixun">
+							<div class="xy-zixun-img">
+								<span><img src="img/zxzx.png"></span>
+							</div>
+							<div class="scrollbox">
+								<div id="scrollDiv">
+									<ul  style="margin: 0;padding: 0 0 0 ;">
+										<li>
+											<a href="#" class="linktit">中华人民共和国监管公告 <span>12-01</span></a>
+										</li>
+										<li>
+											<a href="#" class="linktit">中华人民共和国监管公告 <span>12-01</span></a>
+										</li>
+										<li>
+											<a href="#" class="linktit">中华人民共和国监管公告 <span>12-01</span></a>
+										</li>
+										<li>
+											<a href="#" class="linktit">中华人民共和国监管公告 <span>12-01</span></a>
+										</li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!--
+						
+        	作者：844273168@qq.com
+        	时间：2017-08-03
+        	描述：功能选择模块
+        -->
+						<div class="xy-function">
+							<ul class="mui-table-view mui-grid-view mui-grid-9">
+								<li class='mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3'>
+									<a href='#'>
+										<span class='mui-icon mui-icon-personadd' style="color: #32BAFA;"></span>
+										<div class='mui-media-body'>人员管理</div>
+									</a>
+								</li>
+								<li class='mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3'>
+									<a href='#'>
+										<span class='mui-icon mui-icon-compose' style="color: #32BAFA;"></span>
+										<div class='mui-media-body'>补考勤</div>
+									</a>
+								</li>
+								<li class='mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3'>
+									<a href='#'>
+										<span class='mui-icon mui-icon-chatbubble' style="color: #32BAFA;"></span>
+										<div class='mui-media-body'>通知</div>
+									</a>
+								</li>
+								<li class='mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3'>
+									<a href='#'>
+										<span class='mui-icon mui-icon mui-icon-map' style="color: #32BAFA;"></span>
+										<div class='mui-media-body'>项目分布</div>
+									</a>
+								</li>
+								<li class='mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3'>
+									<a href='#'>
+										<span class='mui-icon  mui-icon-more' style="color: #32BAFA;"></span>
+										<div class='mui-media-body'>更多</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--
+          	作者：844273168@qq.com
+          	时间：2017-08-03
+          	描述：底部；
+          -->
+			<nav class="mui-bar mui-bar-tab">
+				<a id="defaultTab" class="mui-tab-item mui-active" href="templete/home1.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">首页01</span>
+				</a>
+				<a class="mui-tab-item" href="templete/home2.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">首页02</span>
+				</a>
+				<a class="mui-tab-item" href="templete/home3.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">首页03</span>
+				</a>
+				<a class="mui-tab-item" href="templete/home4.html">
+					<span class="mui-icon mui-icon-home"></span>
+					<span class="mui-tab-label">首页04</span>
+				</a>
+
+			</nav>
+	</body>
+
+</html>
+<script>
+	function drawRing(w, h, val) {
+		//先创建一个canvas画布对象，设置宽高  
+		var c = document.getElementById('myCanvas');
+		var ctx = c.getContext('2d');
+		ctx.canvas.width = w;
+		ctx.canvas.height = h;
+		//圆环有两部分组成，底部灰色完整的环，根据百分比变化的环  
+		//先绘制底部完整的环  
+		//起始一条路径  
+		ctx.beginPath();
+		//设置当前线条的宽度  
+		ctx.lineWidth = 8; //10px  
+		//设置笔触的颜色  
+		ctx.strokeStyle = '#FFFFFF';
+		//arc()方法创建弧/曲线（用于创建圆或部分圆）arc(圆心x,圆心y,半径,开始角度,结束角度)  
+		ctx.arc(50, 50, 40, 0, 2 * Math.PI);
+		//绘制已定义的路径  
+		ctx.stroke();
+
+		//绘制根据百分比变动的环  
+		ctx.beginPath();
+		ctx.lineWidth = 10;
+		ctx.strokeStyle = '#00ffb4';
+		//设置开始处为0点钟方向（-90*Math.PI/180）  
+		//x为百分比值（0-100）  
+		ctx.arc(50, 50, 40, -90 * Math.PI / 180, (val * 3.6 - 90) * Math.PI / 180);
+		ctx.stroke();
+		//绘制中间的文字  
+		ctx.font = '.12rem 微软雅黑';
+
+		ctx.fillStyle = '#FFFFFF';
+		ctx.textBaseline = 'middle';
+		ctx.textAlign = 'center';
+		ctx.fillText(val + '%', 50, 50);
+	}
+	drawRing(100, 100, 30);
+
+					$("#scrollDiv").Scroll({
+						line: 1,
+						speed: 500,
+						timer: 3000,
+						up: "but_up",
+						down: "but_down"
+					});
+				
+</script>

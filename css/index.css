@@ -1,56 +1,114 @@
-body{
- background: url(../img/01bg.png)no-repeat ;
- background-size: 100% ;
-}
 .xy-head{
-	width: 100%;
-	height: 5.4rem;
+	background: -webkit-linear-gradient(left top, #4f8dfc ,#32bafa); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom right,  #4f8dfc ,#32bafa); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom right,  #4f8dfc ,#32bafa); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom right,  #4f8dfc ,#32bafa); /* 标准的语法 */
 }
-.xy-login{
-	position: relative;
-	padding-left: .55rem;
-}
-.xy-login input{
-	height: .92rem;
-	width: 5.6rem;
-	padding-left: .8rem;
-	border-radius: .2rem;
-	outline: none;
-	background-color:transparent;
-	border: .01rem solid #FFFFFF;
-}
-input::-webkit-input-placeholder {
-        /* placeholder颜色  */
-        color: #FFFFFF;
-        /* placeholder字体大小  */
-        font-size: .34rem;
-        /* placeholder位置  */
-       /* text-align: right;*/
-     /* text-align: center;*/
-    }
-.icon1{
+.xy-head a{
 	color: #FFFFFF;
-	font-size: .34rem;
-	position: absolute;
-	left: .7rem;
-	top: .67rem;
 }
-.icon2{
-	color: #FFFFFF;
-	font-size: .34rem;
-	position: absolute;
-	left: .7rem;
-	top: 2.15rem;
-}
-.btn{
-	width: 6.45rem;
-	height: .92rem;
-	background: #194f90;
-	border-radius:.3rem ;
-	margin-left: .57rem;
-	outline: none;
-	border: none;
-	color: #FFFFFF;
-	font-size: .32rem;
+.xy-txt{
+	color: #FFFFFF;font-family: "微软雅黑";
+	font-weight: normal;
 	
 }
+.xy-body{
+	background: #275482;
+}
+.xy-box{
+	width: 100%;
+	height: 4rem;
+	background: url(../img/indexbg.png) no-repeat;
+	background-size:100% 4rem ;
+}
+.xy-title{
+	height: 1rem;
+	text-align: center;
+	padding: .2rem 0;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	font-size:.4rem ;
+	
+}
+.xy-main{
+	width: 5rem;
+	height: 3rem;
+	float: left;
+}
+.xy-main span{
+	margin-left: .5rem;
+	display: block;
+	float: left;
+	color: #FFFFFF;
+	padding-top: .2rem;
+	font-family: "微软雅黑";
+	font-size: .3rem;
+}
+.xy-canvas{
+	width: 1.7rem;
+	height: 3rem;
+	float: left;
+	padding:0 0 0 0rem ;
+}
+.xy-canvas span{
+	margin-left: .2rem;
+	width: 100%;
+	display: block;
+	float: left;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: .3rem;
+	border: 1px solid #00ffb4;
+	box-shadow: 0 0 20px rgba(0,255,180,0.7);
+	text-align: center;
+	border-radius: 5px;
+	}
+.mui-media-body{
+	font-family: "微软雅黑";
+	font-size: .3rem !important;
+	color: rgb(56, 58, 63)!important;
+}
+.xy-zixun-img{
+	float: left;
+	width: 1.54rem;
+}
+.xy-zixun-img  span img{
+	width: 1.54rem;
+	height: .52rem;
+}
+.xy-zixun{
+    width: 100%;
+    height: .52rem;
+    margin-top: .1rem;
+    padding-left: .2rem;
+
+}
+.scrollbox ul li{
+	list-style: none;
+	width: 100%;
+	padding-top: .1rem;
+	padding-right: .2rem;
+		
+}
+.scrollbox ul li a{
+	color: #333333;
+	font-family: "微软雅黑";
+	font-size: .3rem;
+	
+	
+	}
+.scrollbox ul li a span{
+	float: right;
+	overflow: hidden;
+}
+#scrollDiv{
+	overflow: hidden;
+}
+.xy-function{
+	float: left;
+}
+/*.xy-canvas img{
+	width: 2rem;
+	height: .8rem;
+}*/
