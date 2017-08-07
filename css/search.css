@@ -44,3 +44,15 @@ input::-webkit-input-placeholder{
 	font-size: .32rem  !important;
 	line-height: .78rem;
 }
+.btn{
+	width: 6.45rem;
+	height: .92rem;
+	background: #194f90;
+	border-radius:.3rem ;
+	margin-left: .57rem;
+	outline: none;
+	border: none;
+	color: #FFFFFF;
+	font-size: .32rem;
+
+}
